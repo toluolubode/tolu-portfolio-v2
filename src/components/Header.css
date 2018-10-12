@@ -1,0 +1,46 @@
+.Header {
+    width: 100%;
+    padding: 30px 0;
+    display: flex;
+    background-color: white;
+}
+
+.HeaderImage{
+    font-family:  'Libre Franklin',  sans-serif;
+    font-weight:500;
+    margin-left: 50px;
+}
+
+.HeaderImage a{
+    color: black;
+}
+
+.HeaderImage a:hover{
+    color: black;
+}
+
+.HeaderGroup {
+    font-family:  'PT Sans',  sans-serif;
+    font-weight:400;
+    max-width: 300px;
+    font-size: 16px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    align-items: center;
+    justify-items: right;
+    margin-right: 100px;
+    margin-left: auto;   
+}
+
+@media (max-width: 768px) {
+    .HeaderGroup{
+        font-size: 15px;
+        margin-right: 50px;
+        grid-template-columns: repeat(1, 110px);
+    }
+
+    .Header a{
+        padding-bottom: 5px;
+    }
+}
