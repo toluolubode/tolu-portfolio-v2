@@ -19,3 +19,42 @@ a:hover{
   color: dodgerblue;
 }
 
+@keyframes HeroAnimation {
+  0% {
+      opacity: 0;
+      transform: translateY(20px)
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0px)
+  }
+}
+
+.Hero{
+  padding-top: 30px;
+}
+
+.HeroText{
+  text-align: center;
+  line-height:1.5;
+}
+
+.HeroText div iframe{
+  animation: HeroAnimation 3s 1.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  opacity: 0;
+}
+.HeroText h1{
+  font-family: 'Rubik', sans-serif;
+  margin-top: 0;
+  animation: HeroAnimation 3s 0.5s forwards cubic-bezier(.57,.21,.69,1.25);
+  opacity: 0;
+  word-wrap: break-word;
+}
+
+@media (max-width:768px){
+  .HeroText h1{
+    font-size: 30px;
+    white-space: pre-wrap;
+  }
+
+}
