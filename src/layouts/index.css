@@ -47,6 +47,9 @@ a:hover{
   margin-left: 50px;
   line-height:1.5;
 }
+.HeroWords{
+  width: 600px;
+}
 
 @media (max-width:768px){
   .Hero{
@@ -102,27 +105,41 @@ a:hover{
 }
 .case-study{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3);
   grid-auto-rows: 350px;
-  grid-gap:30px;
+  grid-gap:0px;
   margin: 0 auto;
-  padding-bottom: 50px;
+  padding-bottom: 200px;
   width: 70%
 }
 
-article.case-study-article{
+.case-study a{
+  display: inherit;
+}
+
+.case-study-article{
   background:linear-gradient(135deg, #17ead9 0%,#6078ea 100%);
   padding:20px;
-  border-radius:10px;
+  border-radius: 5px;
   color:#fff;
   display:flex;
+  margin: 10px;
+  transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1.0);
 
+}
+
+.case-study-article:hover{
+  box-shadow: 0 10px 20px rgba(0,0,0, 0.25);
+    transform: translateY(-7px);
 }
 
 @media (max-width:768px){
   .case-study{
     padding-top: 30px;
     grid-auto-rows: 200px;
-    grid-gap:15px;
+  }
+  .case-study-article h2{
+    font-weight: 500;
+    font-size: 25px;
   }
 }

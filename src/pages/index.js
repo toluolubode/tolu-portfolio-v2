@@ -8,23 +8,33 @@ const IndexPage = () => (
         <div className="HeroAnimate">
           <iframe width="300" height="300" src="https://lottiefiles.com/iframe/43-emoji-wink" frameBorder="0" allowFullScreen scrolling='no'></iframe>
         </div>
-        <h1>Hello there! <br></br>I <span>❤️</span>code just as much as I ❤️ pixels</h1>
-        <span id="pointer">👉🏿</span><p>To get you started, here's what I've done <Link to="/about">recently</Link></p>
+        <div className="HeroWords">
+          <h1>Hello there! <br></br>I <span>❤️</span>code just as much as I ❤️ pixels</h1>
+          <span id="pointer">👉🏿</span><p>To get you started, here's what I've done <Link to="/about">recently</Link></p>
+        </div>
       </div>
     </div>
     <div className="case-study">
+      <Link to="/spotifyjamroom">
       <article className="case-study-article">
-        1
+        <h2>Spotify Jamroom</h2>
       </article>
+      </Link>
+      <Link to="/spotifyjamroom">
       <article className="case-study-article">
-        2
+        <h2>Pilot Interactive Internship</h2>
       </article>
+      </Link>
+      <Link to="/spotifyjamroom">
       <article className="case-study-article">
-        3
+        <h2>CampusBash</h2>
       </article>
+      </Link>
+      <Link to="/spotifyjamroom">
       <article className="case-study-article">
-        4
+        <h2>Other Works</h2>
       </article>
+      </Link>
     </div>
   </div>
 )
