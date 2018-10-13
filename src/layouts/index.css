@@ -31,7 +31,7 @@ a:hover{
 }
 
 .Hero{
-  padding-top: 30px;
+  padding-top: 75px;
 }
 
 .HeroText{
@@ -40,6 +40,9 @@ a:hover{
 }
 
 @media (max-width:768px){
+  .Hero{
+    padding-top:30px;
+  }
   .HeroText {
     margin-left: 25px;
   }
@@ -72,7 +75,7 @@ a:hover{
 
 @media (max-width:768px){
   .HeroText h1{
-    font-size: 30px;
+    font-size: 25px;
     white-space: pre-wrap;
   }
 
