@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:500|Rubik:500|Yantramanav|PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,500|Rubik:500|Yantramanav|PT+Sans');
 
 body {
   font-family: 'Libre Franklin', 'Rubik', 'Yantramanav', sans-serif;
@@ -35,19 +35,38 @@ a:hover{
 }
 
 .HeroText{
-  text-align: center;
+  margin-left: 50px;
   line-height:1.5;
 }
 
+@media (max-width:768px){
+  .HeroText {
+    margin-left: 25px;
+  }
+}
+
 .HeroText div iframe{
+  float: right;
   animation: HeroAnimation 3s 1.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
   opacity: 0;
+  margin-right: 150px;
+}
+@media (max-width:768px){
+  .HeroText div iframe{
+    display: none;
+  }
 }
 .HeroText h1{
   font-family: 'Rubik', sans-serif;
   margin-top: 0;
   animation: HeroAnimation 3s 0.5s forwards cubic-bezier(.57,.21,.69,1.25);
   opacity: 0;
+  word-wrap: break-word;
+}
+.HeroText p{
+  font-size:15px;
+  font-weight: 300;
+  animation: HeroAnimation 3s 0.5s forwards cubic-bezier(.57,.21,.69,1.25);
   word-wrap: break-word;
 }
 
