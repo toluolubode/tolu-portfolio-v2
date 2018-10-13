@@ -58,6 +58,9 @@ a:hover{
   .HeroText {
     margin-left: 25px;
   }
+  .HeroWords{
+    width: 100%;
+  }
 }
 
 .HeroText div iframe{
