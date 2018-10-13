@@ -48,7 +48,7 @@ a:hover{
   line-height:1.5;
 }
 .HeroWords{
-  width: 600px;
+  width: 700px;
 }
 
 @media (max-width:768px){
@@ -121,7 +121,6 @@ a:hover{
 }
 
 .case-study-article{
-  background:linear-gradient(135deg, #17ead9 0%,#6078ea 100%);
   padding:20px;
   border-radius: 5px;
   color:#fff;
@@ -137,17 +136,51 @@ a:hover{
 
 .case-study-article:hover{
   box-shadow: 0 10px 20px rgba(0,0,0, 0.25);
-  transform: translateY(-7px);
+  transform: translateY(-10px);
 }
+
+/* Jamroom */
 .case-study-article#jamroom{
   background-image: url(../assets/jamroom/jamroom-cover1.png);
   background-size: cover;
 }
-
 .case-study-article#jamroom:hover{
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../assets/jamroom/jamroom-cover1.png);
   background-size: cover;
 }
+
+/* Pilot Internship */
+.case-study-article#pilotinternship{
+  background:linear-gradient(135deg, #17ead9 0%,#6078ea 100%);
+  /* background-image: url(../assets/jamroom/jamroom-cover1.png);
+  background-size: cover; */
+}
+.case-study-article#pilotinternship:hover{
+  background: linear-gradient(135deg, #17ead9 0%,#6078ea 50%);
+  background-size: cover;
+}
+
+/* CampusBash */
+.case-study-article#campusbash{
+  background-image: url(../assets/campusbash/campusbash-cover.png);
+  background-size: cover;
+}
+.case-study-article#campusbash:hover{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../assets/campusbash/campusbash-cover.png);
+  background-size: cover;
+}
+
+/* Other Works  */
+.case-study-article#otherworks{
+  background:linear-gradient(135deg, #17ead9 0%,#6078ea 100%);
+  /* background-image: url(../assets/jamroom/jamroom-cover1.png);
+  background-size: cover; */
+}
+.case-study-article#otherworks:hover{
+  background: linear-gradient(135deg, #17ead9 0%,#6078ea 50%);
+  background-size: cover;
+}
+
 
 @media (max-width:768px){
   .case-study{
