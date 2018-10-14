@@ -3,19 +3,14 @@ Using the default Gatsby starter as a boiler plate.
 
 ## Install
 
+This assumes you have node installed. If not go get node.
 Make sure that you have the Gatsby CLI program installed:
 ```sh
 npm install --global gatsby-cli
 ```
-
-And run from your CLI:
-```sh
-gatsby new gatsby-example-site
-```
-
 Then you can run it by:
 ```sh
-cd gatsby-example-site
+cd tolu-portfolio-v2
 gatsby develop
 ```
 
