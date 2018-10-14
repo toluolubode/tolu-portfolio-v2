@@ -5,9 +5,6 @@ const IndexPage = () => (
   <div>
     <div className="Hero">
       <div className="HeroText">
-        <div className="HeroAnimate">
-          <iframe width="300" height="300" src="https://lottiefiles.com/iframe/43-emoji-wink" frameBorder="0" allowFullScreen scrolling='no'></iframe>
-        </div>
         <div className="HeroWords">
           <h1>🙈 Hello there! <br></br>I'm a digital product designer</h1>
           <h1>I <span>❤️</span>code just as much as I ❤️ pixels</h1>
@@ -15,13 +12,16 @@ const IndexPage = () => (
           <br></br>
           <p>Here's my most recent case study: <a style={{color:"#00bd6e"}} target="_blank" href="https://uxplanet.org/designing-spotify-jamroom-f9f4ec9fd1a3">Spotify Jamroom</a></p>
           <br></br>
-          <p>You can catch my shenanigans on <a  target="_blank" href="https://twitter.com/txluu">Twitter</a></p>
+          <p>You can catch my online shenanigans and gif bufoonery on <a  target="_blank" href="https://twitter.com/txluu">Twitter</a></p>
           <br></br>
           <p>I sling some code on <a style={{color:"black"}} target="_blank" href="https://github.com/toluolubode">Github</a></p>
           <br></br>
           <p>...and</p>
           <br></br>
-          <p>I'm super professional on <a style={{color:"darkslategray"}} target="_blank" href="https://www.linkedin.com/in/toluolubode/">Linkedin</a></p>
+          <p>I'm super professional on <a style={{color:"darkslategray"}} target="_blank" href="https://www.linkedin.com/in/toluolubode/">Linkedin</a>...aren't we all</p>
+        </div>
+        <div className="HeroAnimate">
+          <iframe width="300" height="300" src="https://lottiefiles.com/iframe/43-emoji-wink" frameBorder="0" allowFullScreen scrolling='no'></iframe>
         </div>
       </div>
     </div>
