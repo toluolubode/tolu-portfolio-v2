@@ -16,7 +16,7 @@ const IndexPage = () => (
           <br></br>
           <p>You can catch my shenanigans on <a  target="_blank" href="https://twitter.com/txluu">Twitter</a></p>
           <br></br>
-          <p>I sling some code on <a style={{color:"black"}} target="_blank" href="https://twitter.com/txluu">Github</a></p>
+          <p>I sling some code on <a style={{color:"black"}} target="_blank" href="https://github.com/toluolubode">Github</a></p>
           <br></br>
           <p>...and</p>
           <br></br>
