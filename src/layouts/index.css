@@ -53,7 +53,7 @@ a:hover{
 
 @media (max-width:768px){
   .Hero{
-    padding-top:30px;
+    padding-top:50px;
   }
   .HeroText {
     margin-left: 25px;
@@ -77,26 +77,15 @@ a:hover{
 .HeroText h1{
   font-family: 'Rubik', sans-serif;
   margin-top: 0;
-  /* animation: HeroAnimation 3s 0.5s forwards cubic-bezier(.57,.21,.69,1.25); */
-  /* opacity: 0; */
-  word-wrap: break-word;
+  /* animation: HeroAnimation 3s 0.5s forwards cubic-bezier(.57,.21,.69,1.25);  */
 }
 .HeroText p{
-  font-size:15px;
-  font-weight: 300;
   /* animation: HeroAnimation 3s 0.5s forwards cubic-bezier(.57,.21,.69,1.25); */
-  word-wrap: break-word;
-}
-.HeroText p{
   display: inline;
+  word-wrap: break-word;
 }
 .HeroText p a{
   color: dodgerblue;
-}
-.HeroText span#pointer{
-  /* animation: HeroAnimation 3s 0.5s forwards cubic-bezier(.57,.21,.69,1.25); */
-  padding-right: 10px;
-  display: inline;
 }
 
 @media (max-width:768px){
@@ -109,11 +98,12 @@ a:hover{
 .case-study{
   display: grid;
   grid-template-columns: repeat(3);
-  grid-auto-rows: 350px;
+  grid-auto-rows: 400px;
   grid-gap:0px;
   margin: 0 auto;
+  padding-top: 100px;
   padding-bottom: 200px;
-  width: 70%
+  width: 80%
 }
 
 .case-study a{
@@ -144,10 +134,10 @@ a:hover{
   background-image: url(../assets/jamroom/jamroom-cover1.png);
   background-size: cover;
 }
-.case-study-article#jamroom:hover{
+/* .case-study-article#jamroom:hover{
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../assets/jamroom/jamroom-cover1.png);
   background-size: cover;
-}
+} */
 
 /* Pilot Internship */
 .case-study-article#pilotinternship{
@@ -165,10 +155,10 @@ a:hover{
   background-image: url(../assets/campusbash/campusbash-cover.png);
   background-size: cover;
 }
-.case-study-article#campusbash:hover{
+/* .case-study-article#campusbash:hover{
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../assets/campusbash/campusbash-cover.png);
   background-size: cover;
-}
+} */
 
 /* Other Works  */
 .case-study-article#otherworks{
