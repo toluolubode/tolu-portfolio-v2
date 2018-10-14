@@ -12,11 +12,6 @@ const IndexPage = () => (
         {/* data-aos="fade-down" data-aos-easing="linear"
         data-aos-duration="1500" */}
           <h1>Hello there! <br></br>I<span>❤️</span>code just as much as I ❤️ pixels</h1>
-          <p>My site is currently undergoing a redesign 🚀</p>
-          <br></br>
-          <p>You can catch my shenanigans on <a href="https://twitter.com/txluu">Twitter</a></p>
-          <br></br>
-          <p style={{paddingTop:"20px"}}>My latest case study: <a style={{color:"#00bd6e"}} href="https://uxplanet.org/designing-spotify-jamroom-f9f4ec9fd1a3">Spotify Jamroom</a></p>
         </div>
       </div>
     </div>
