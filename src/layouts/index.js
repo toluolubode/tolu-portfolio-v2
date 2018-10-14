@@ -18,6 +18,7 @@ const Layout = ({ children, data }) => (
     />
     <Header />
       {children()}
+    {/* <Footer /> */}
   </div>
 )
 
