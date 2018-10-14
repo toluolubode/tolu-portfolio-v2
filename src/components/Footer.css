@@ -1,3 +1,25 @@
 .Footer{
+    height: 45vh;
     background-color: grey;
+}
+.footer-text{
+    margin: 0 auto;
+    padding:20px;
+    color: white;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 13px;
+}
+
+.footer-text #copyright{
+    max-width: 170px;;
+}
+
+@media (max-width:768px){
+    .Footer{
+        height: 30vh;
+        width: 100%;
+    }
+    .footer-text{
+       font-size:  10px;
+    }
 }

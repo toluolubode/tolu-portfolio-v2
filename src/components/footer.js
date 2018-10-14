@@ -4,7 +4,9 @@ import './Footer.css'
 
 const Footer = ({ siteTitle }) => (
   <footer className="Footer">
-    <p>COPYRIGHT 2018 TOLU OLUBODE. ALL RIGHTS RESERVED.</p>
+    <div className="footer-text">
+      <p id="copyright">© Tolu Olubode, 2018. RIGHTS RESERVED...YOU KNOW THE DRILL ✌🏿</p>
+    </div>
   </footer>
 )
 

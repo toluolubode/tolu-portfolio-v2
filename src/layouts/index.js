@@ -7,6 +7,7 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 import './index.css'
 
+
 const Layout = ({ children, data }) => (
   <div>
     <Helmet
@@ -18,6 +19,7 @@ const Layout = ({ children, data }) => (
     />
     <Header />
       {children()}
+    <Footer />
   </div>
 )
 
