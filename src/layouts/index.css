@@ -48,10 +48,14 @@ a:hover{
   line-height:1.5;
 }
 .HeroWords{
+  display: inline-block;
   width: 700px;
 }
+.HeroAnimate{
+  display: inline-block;
+}
 
-@media screen and (max-width:768px){
+@media (max-width:768px){
   .Hero{
     padding-top:30px;
   }
@@ -60,6 +64,7 @@ a:hover{
   }
   .HeroWords{
     width: 100%;
+    padding-right: 10px
   }
 }
 
