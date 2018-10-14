@@ -1,9 +1,5 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-
-AOS.init();
 
 const IndexPage = () => (
   <div>
@@ -12,8 +8,9 @@ const IndexPage = () => (
         <div className="HeroAnimate">
           <iframe width="300" height="300" src="https://lottiefiles.com/iframe/43-emoji-wink" frameBorder="0" allowFullScreen scrolling='no'></iframe>
         </div>
-        <div className="HeroWords" data-aos="fade-down" data-aos-easing="linear"
-        data-aos-duration="1500">
+        <div className="HeroWords">
+        {/* data-aos="fade-down" data-aos-easing="linear"
+        data-aos-duration="1500" */}
           <h1>Hello there! <br></br>I<span>❤️</span>code just as much as I ❤️ pixels</h1>
           <p>My site is currently undergoing a redesign 🚀</p>
           <br></br>
@@ -25,20 +22,20 @@ const IndexPage = () => (
     </div>
     <div className="case-study">
       <Link to="/spotifyjamroom">
-      <article className="case-study-article" id="jamroom" data-aos="fade-right">
+      <article className="case-study-article" id="jamroom">
         <p>A case for the shared music experience</p>
       </article>
       </Link>
       <Link to="/campusbash">
-      <article className="case-study-article" id="campusbash" data-aos="fade-left">
+      <article className="case-study-article" id="campusbash">
       </article>
       </Link>
       <Link to="/pilotinternship">
-      <article className="case-study-article" id="pilotinternship"data-aos="fade-right">
+      <article className="case-study-article" id="pilotinternship">
       </article>
       </Link>
       <Link to="/otherworks">
-      <article className="case-study-article" id="otherworks"data-aos="fade-left">
+      <article className="case-study-article" id="otherworks">
       </article>
       </Link>
     </div>
