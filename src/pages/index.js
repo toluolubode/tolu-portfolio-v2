@@ -10,11 +10,11 @@ const IndexPage = () => (
         </div>
         <div className="HeroWords">
           <h1>Hello there! <br></br>I <span>❤️</span>code just as much as I ❤️ pixels</h1>
-          <span id="pointer">👉🏿</span><p>To get you started, here's what I've done <Link to="/about">recently</Link></p>
+          <span id="pointer">🚀</span><p>My site is currently under construction. Here's what I've worked on recently <a href="https://uxplanet.org/designing-spotify-jamroom-f9f4ec9fd1a3">recently</a></p>
         </div>
       </div>
     </div>
-    <div className="case-study">
+    {/* <div className="case-study">
       <Link to="/spotifyjamroom">
       <article className="case-study-article" id="jamroom">
         <p>A case for the shared music experience</p>
@@ -32,7 +32,7 @@ const IndexPage = () => (
       <article className="case-study-article" id="otherworks">
       </article>
       </Link>
-    </div>
+    </div> */}
   </div>
 )
 
