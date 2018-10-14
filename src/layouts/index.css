@@ -77,6 +77,7 @@ a:hover{
 .HeroText h1{
   font-family: 'Rubik', sans-serif;
   margin-top: 0;
+  margin-bottom: 0;
   /* animation: HeroAnimation 3s 0.5s forwards cubic-bezier(.57,.21,.69,1.25); */
   /* opacity: 0; */
   word-wrap: break-word;

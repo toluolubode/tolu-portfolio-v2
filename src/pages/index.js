@@ -9,8 +9,9 @@ const IndexPage = () => (
           <iframe width="300" height="300" src="https://lottiefiles.com/iframe/43-emoji-wink" frameBorder="0" allowFullScreen scrolling='no'></iframe>
         </div>
         <div className="HeroWords">
-          <h1>Hello there! <br></br>I <span>❤️</span>code just as much as I ❤️ pixels</h1>
-          <span id="pointer">🚀</span><p style={{fontWeight:"bold"}}>My site is currently under construction.</p>
+          <h1>🙈 Hello there! <br></br>I'm a digital product designer</h1>
+          <h1>I <span>❤️</span>code just as much as I ❤️ pixels</h1>
+          <p style={{fontWeight:"bold"}}>Soo...my site is currently under construction </p><span id="pointer">🚀</span>
           <br></br>
           <p>Here's my most recent case study: <a style={{color:"#00bd6e"}} target="_blank" href="https://uxplanet.org/designing-spotify-jamroom-f9f4ec9fd1a3">Spotify Jamroom</a></p>
           <br></br>
