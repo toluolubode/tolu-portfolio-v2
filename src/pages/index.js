@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+import Link from 'gatsby-link';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -23,7 +23,7 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
-    {/* <div className="case-study">
+    <div className="case-study">
       <Link to="/spotifyjamroom">
       <article className="case-study-article" id="jamroom" data-aos="fade-right">
         <p>A case for the shared music experience</p>
@@ -41,7 +41,7 @@ const IndexPage = () => (
       <article className="case-study-article" id="otherworks"data-aos="fade-left">
       </article>
       </Link>
-    </div> */}
+    </div>
   </div>
 )
 
