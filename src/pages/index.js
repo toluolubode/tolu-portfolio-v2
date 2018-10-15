@@ -1,6 +1,14 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
+
+// For window and build
+if (typeof window !== `undefined`) {
+  const AOS = require("aos")
+  AOS.init();
+}
+import 'aos/dist/aos.css';
+
 const IndexPage = () => (
   <div>
     <div className="Hero">
@@ -8,9 +16,7 @@ const IndexPage = () => (
         <div className="HeroAnimate">
           <iframe width="300" height="300" src="https://lottiefiles.com/iframe/43-emoji-wink" frameBorder="0" allowFullScreen scrolling='no'></iframe>
         </div>
-        <div className="HeroWords">
-        {/* data-aos="fade-down" data-aos-easing="linear"
-        data-aos-duration="1500" */}
+        <div className="HeroWords"  data-aos="fade-down">
           <h1>Hello there! <br></br>I<span>❤️</span>code just as much as I ❤️ pixels</h1>
         </div>
       </div>
@@ -36,5 +42,6 @@ const IndexPage = () => (
     </div>
   </div>
 )
+    
 
 export default IndexPage
