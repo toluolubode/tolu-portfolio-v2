@@ -1,11 +1,14 @@
 .Footer{
     height: 45vh;
-    background-color: grey;
+    background-color: white;
+    border-top-style: solid;
+    border-top-width: thin;
+    border-color: gray;
 }
 .footer-text{
     margin: 0 auto;
     padding:20px;
-    color: white;
+    color: grey;
     font-family: 'Yantramanav', sans-serif;
     font-size: 13px;
 }

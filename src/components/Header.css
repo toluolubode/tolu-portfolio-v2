@@ -1,16 +1,19 @@
 .Header {
-    /* position: fixed;
-    z-index: 100;  turn on to make the header sticky*/
+    position: fixed;
+    z-index: 100;  
+    /* turn on to make the header sticky */
     width: 100%;
     padding: 30px 0;
     display: flex;
     background-color: white;
+    
 }
 
 .HeaderImage{
     font-family:  'Libre Franklin',  sans-serif;
     font-weight:500;
     margin-left: 50px;
+    
 }
 @media (max-width:768px){
     .HeaderImage{

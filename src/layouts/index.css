@@ -15,8 +15,24 @@ a {
   text-decoration: none;
 }
 
-a:hover{
-  color: dodgerblue;
+
+.cool-link {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+}
+
+.cool-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background:linear-gradient(135deg, #17ead9 0%,#6078ea 100%);
+  transition: width .3s;
+}
+
+.cool-link:hover::after {
+  width: 100%;
 }
 
 @keyframes HeroAnimation {
@@ -41,25 +57,47 @@ a:hover{
 
 .Hero{
   padding-top: 75px;
+  height: 450px;
+  background: linear-gradient(135deg, #17ead9 0%,#6078ea 100%);
+  border-radius: 0% 0% 10% 10%;
+  
+  /* animation: morph 10s ease-in-out infinite both alternate; */
 }
 
 .HeroText{
+  color: rgb(255, 255, 255);
   margin-left: 50px;
   line-height:1.5;
 }
+
+@keyframes morph {
+  0% {border-radius: 40% 60% 60% 40% / 60% 30% 70% 40%;} 
+  100% {border-radius: 40% 60%;} 
+}
+
 .HeroWords{
+  display: inline-block;
   width: 700px;
+  vertical-align: top;
+  padding-top: 55px;
+  /* background: linear-gradient(135deg, #17ead9 0%,#6078ea 100%); */
+  animation: morph 10s ease-in-out infinite both alternate;
+}
+.HeroAnimate{
+  display: inline-block;
 }
 
 @media (max-width:768px){
   .Hero{
-    padding-top:50px;
+    padding-top: 200px;
+    height: 200px;
   }
   .HeroText {
     margin-left: 25px;
   }
   .HeroWords{
     width: 100%;
+    padding-top: 0px;
   }
 }
 

@@ -8,10 +8,10 @@ const Header = ({ siteTitle }) => (
     <Link to="/">TOLU OLUBODE</Link>
   </div>
   <div className="HeaderGroup">
-    <Link to="/">work</Link>
-    <Link to="/code">code</Link>
-    <Link to="/play">play</Link>
-    <Link to="/about">about</Link>
+    <Link className="cool-link" to="/">work</Link>
+    <Link className="cool-link" to="/code">code</Link>
+    <Link className="cool-link" to="/play">play</Link>
+    <Link className="cool-link" to="/about">about</Link>
   </div>
 </div>
 )
