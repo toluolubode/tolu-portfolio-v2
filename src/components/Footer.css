@@ -9,6 +9,10 @@
     border-color: rgba(204, 204, 204, 0.678); */
 }
 
+@media (max-width:768px){
+    height: 2vh;
+}
+
 
 .FooterGroup{
     display: inline;
@@ -19,6 +23,12 @@
     grid-template-columns: repeat(5, 80px);
     align-items: center;
     justify-items: right;
+}
+
+@media(max-width:768px){
+    .FooterGroup{
+        margin-left: 0;
+    }
 }
 
 .FooterGroup a{
