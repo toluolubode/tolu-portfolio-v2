@@ -23,20 +23,20 @@ const IndexPage = () => (
     </div>
     <div className="case-study">
       <Link to="/spotifyjamroom">
-      <article className="case-study-article" id="jamroom">
+      <article className="case-study-article" id="jamroom" data-aos="fade-right">
         <p>A case for the shared music experience</p>
       </article>
       </Link>
       <Link to="/campusbash">
-      <article className="case-study-article" id="campusbash">
+      <article className="case-study-article" id="campusbash" data-aos="fade-left">
       </article>
       </Link>
       <Link to="/pilotinternship">
-      <article className="case-study-article" id="pilotinternship">
+      <article className="case-study-article" id="pilotinternship" data-aos="fade-right">
       </article>
       </Link>
       <Link to="/otherworks">
-      <article className="case-study-article" id="otherworks">
+      <article className="case-study-article" id="otherworks" data-aos="fade-left">
       </article>
       </Link>
     </div>
