@@ -1,28 +1,33 @@
 .Footer{
-    height: 45vh;
+    height: 15vh;
     background-color: white;
-    border-top-style: solid;
+    width: 100%;
+    padding: 30px 0;
+    display: -webkit-inline-box;
+    /* border-top-style: solid;
     border-top-width: thin;
-    border-color: gray;
-}
-.footer-text{
-    margin: 0 auto;
-    padding:20px;
-    color: grey;
-    font-family: 'Yantramanav', sans-serif;
-    font-size: 13px;
+    border-color: rgba(204, 204, 204, 0.678); */
 }
 
-.footer-text #copyright{
-    max-width: 170px;;
+
+.FooterGroup{
+    display: inline;
+    max-width: 100%;
+    margin-left: 250px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 80px);
+    align-items: center;
+    justify-items: right;
 }
 
-@media (max-width:768px){
-    .Footer{
-        height: 30vh;
-        width: 100%;
-    }
-    .footer-text{
-       font-size:  10px;
-    }
+.FooterGroup a{
+    font-family:  'Yantramanav',  sans-serif;
+    font-weight:100;
+    font-size: 16px;
+}
+
+a.footer-link:hover{
+    color: dodgerblue;
+
 }

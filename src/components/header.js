@@ -12,6 +12,7 @@ const Header = ({ siteTitle }) => (
     <Link className="cool-link" to="/code">code</Link>
     <Link className="cool-link" to="/play">play</Link>
     <Link className="cool-link" to="/about">about</Link>
+    <a className="cool-link" to="/about">resume</a>
   </div>
 </div>
 )

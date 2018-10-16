@@ -13,10 +13,11 @@ const IndexPage = () => (
   <div>
     <div className="Hero">
       <div className="HeroText">
-      <div className="HeroWords"  data-aos="fade-down">
-          <h1>Hello there! <br></br>I<span> ❤️ </span>code just as much as I ❤️ pixels</h1>
+      <div className="HeroWords"  data-aos="fade-in" data-aos-duration="1200">
+          <h1 id="hellothere">HELLO THERE!<span id="waving-hand">👋🏿</span></h1>
+          <h1>I <span className="beating-heart">❤️</span>design just as much as I <span className="beating-heart">❤️</span>code.</h1>
         </div>
-        <div className="HeroAnimate">
+        <div className="HeroAnimate" data-aos="fade-in">
           <iframe width="300" height="300" src="https://lottiefiles.com/iframe/43-emoji-wink" frameBorder="0" allowFullScreen scrolling='no'></iframe>
         </div>
       </div>
