@@ -129,9 +129,6 @@ a {
   /* .HeroText h1#hover-text{
     display: none;
   } */
-  .HeroAnimate{
-    display: none;
-  }
 }
 
 @media (min-width: 1440px){
