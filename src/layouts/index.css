@@ -73,17 +73,17 @@ a {
   display: inline-block;
 }
 
-@media (max-width:768px){
+@media (max-width: 768px){
   .Hero{
     padding-top: 200px;
     height: 200px;
     text-align: center;
   }
   .HeroText {
-    margin-left: 25px;
+    margin-left: 0px;
   }
   .HeroWords{
-    width: 100%;
+    width: 300px;
     padding-top: 0px;
   }
 }
@@ -111,7 +111,7 @@ a {
   }
 }
 
-@media (max-width: 1024px){
+@media (min-width: 1024px){
   .HeroWords{
     width: 550px;
   }
@@ -121,9 +121,9 @@ a {
   /* .HeroText h1#hover-text{
     display: none;
   } */
-  .HeroAnimate{
+  /* .HeroAnimate{
     display: none;
-  }
+  } */
 }
 
 @media (min-width: 1440px){
@@ -235,7 +235,7 @@ animation-timing-function: ease;
 
 @media (max-width:768px){
   .HeroText h1{
-    font-size: 25px;
+    font-size: 18px;
     white-space: pre-wrap;
   }
 
