@@ -15,10 +15,16 @@ const IndexPage = () => (
       <div className="HeroText">
       <div className="HeroWords"  data-aos="fade-in" data-aos-duration="1200">
           <h1 id="hellothere">HELLO THERE!<span id="waving-hand">👋🏿</span></h1>
-          <h1>I<span> ❤️ </span>design just as much as I<span> ❤️ </span>code.</h1>
+          <h1>What happens when a<span> ❤️ </span>of design meets a<span> ❤️ </span>of code?</h1>
+          <h1 id="hover-text" className="cool-link">HOVER OVER ME TO FIND OUT</h1>
+          <h1 id="hover-text-1" data-aos="fade-in">YOU GET THIS GUY WITH TWO THUMBS!🙈</h1>
+
         </div>
-        <div className="HeroAnimate" data-aos="fade-in">
-          <iframe width="300" height="300" src="https://lottiefiles.com/iframe/43-emoji-wink" frameBorder="0" allowFullScreen scrolling='no'></iframe>
+        <div className="HeroAnimate" data-aos="fade-in" data-aos-duration="1500"
+    data-aos-easing="ease-in-out">
+          <div id="tolu-pic">
+          </div>
+          {/* <iframe width="300" height="300" src="https://lottiefiles.com/iframe/43-emoji-wink" frameBorder="0" allowFullScreen scrolling='no'></iframe> */}
         </div>
       </div>
     </div>

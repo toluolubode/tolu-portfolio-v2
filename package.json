@@ -9,6 +9,7 @@
     "gatsby-cli": "^2.4.3",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-react-helmet": "^2.0.10",
+    "jshint": "^2.9.6",
     "react-helmet": "^5.2.0",
     "susy": "^3.0.5"
   },

@@ -64,7 +64,7 @@ a {
 
 .HeroWords{
   display: inline-block;
-  width: 490px;
+  width: 550px;
   vertical-align: top;
   padding-top: 55px;
   /* background: linear-gradient(135deg, #17ead9 0%,#6078ea 100%); */
@@ -94,11 +94,53 @@ a {
   /* opacity: 0; */
   margin-right: 150px;
 }
-@media (max-width:768px){
+@media (max-width: 768px){
   .HeroText div iframe{
     display: none;
   }
+  .HeroText h1#hover-text{
+    display: none;
+  }
+  
+  .HeroText h1#hover-text-1{
+    padding-top: 10px;
+    opacity: 1;
+  }
+  .HeroAnimate{
+    display: none;
+  }
 }
+
+@media (max-width: 1024px){
+  .HeroWords{
+    width: 550px;
+  }
+  .HeroText div iframe{
+    display: none;
+  }
+  /* .HeroText h1#hover-text{
+    display: none;
+  } */
+  .HeroAnimate{
+    display: none;
+  }
+}
+
+@media (min-width: 1440px){
+  .HeroWords{
+    width: 610px;
+  }
+  /* .HeroText div iframe{
+    display: none;
+  } */
+  /* .HeroText h1#hover-text{
+    display: none;
+  } */
+  /* .HeroAnimate{
+    display: none;
+  } */
+}
+
 .HeroText h1{
   font-family: 'Rubik', sans-serif;
   font-weight: 400;
@@ -108,7 +150,7 @@ a {
   margin-bottom: 0;
   /* animation: HeroAnimation 3s 0.5s forwards cubic-bezier(.57,.21,.69,1.25);  */
 }
-.HeroText h1#hellothere{
+.HeroText h1#hellothere, h1#hover-text, h1#hover-text-1{
   font-family: 'Robot Mono',monospace;
   color: black;
   font-weight: 100;
@@ -117,6 +159,22 @@ a {
   margin-bottom: 15px;
   /* animation: HeroAnimation 3s 0.5s forwards cubic-bezier(.57,.21,.69,1.25);  */
 }
+
+#hover-text.cool-link:hover + #hover-text-1 {
+	opacity: 1;
+}
+
+#hover-text-1{
+  opacity: 0;
+}
+
+#tolu-pic{
+  height: 300px;
+  width: 300px;
+  background: url(../assets/toluavatar.svg);
+  background-size: cover;
+}
+
 
 .HeroWords span#waving-hand{
   display: -moz-inline-stack;
@@ -141,7 +199,7 @@ animation-timing-function: ease;
   transform: rotate(40deg);}
   }
 
-.HeroWords span.beating-heart{
+/* .HeroWords span.beating-heart{
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
@@ -165,7 +223,7 @@ animation-timing-function: ease;
   100% {
     transform: scale(1);
   }
-}
+} */
 .HeroText p{
   /* animation: HeroAnimation 3s 0.5s forwards cubic-bezier(.57,.21,.69,1.25); */
   display: inline;
