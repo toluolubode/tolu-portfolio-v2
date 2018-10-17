@@ -9,8 +9,12 @@
     border-color: rgba(204, 204, 204, 0.678); */
 }
 
-@media (max-width:768px){
-    height: 2vh;
+@media (max-width: 768px){
+    .Footer{
+        height: 8vh;
+        padding-top: 0;
+        padding-bottom: 15px;
+    }
 }
 
 
@@ -20,14 +24,16 @@
     margin-left: 50px;
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(5, 80px);
+    grid-template-columns: 50px 50px 50px 50px 50px;
+    grid-column-gap: 20px;
     align-items: center;
     justify-items: right;
 }
 
-@media(max-width:768px){
+@media(max-width: 768px){
     .FooterGroup{
-        margin-left: 0;
+        grid-column-gap: 10px; 
+        margin-left: 10px;
     }
 }
 
@@ -40,4 +46,9 @@
 a.footer-link:hover{
     color: dodgerblue;
 
+}
+@media (max-width: 768px){
+    .FooterGroup a{
+        font-size: 13px;
+    }
 }
