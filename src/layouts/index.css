@@ -115,15 +115,23 @@ a {
   .HeroWords{
     width: 550px;
   }
-  .HeroText div iframe{
+  .HeroText h1#hover-text{
     display: none;
   }
+  
+  .HeroText h1#hover-text-1{
+    padding-top: 10px;
+    opacity: 1;
+  }
+  /* .HeroText div iframe{
+    display: none;
+  } */
   /* .HeroText h1#hover-text{
     display: none;
   } */
-  /* .HeroAnimate{
+  .HeroAnimate{
     display: none;
-  } */
+  }
 }
 
 @media (min-width: 1440px){
