@@ -15,7 +15,7 @@ const IndexPage = () => (
       <div className="HeroText">
       <div className="HeroWords"  data-aos="fade-in" data-aos-duration="1200">
           <h1 id="hellothere">HELLO THERE!<span id="waving-hand">👋🏿</span></h1>
-          <h1>I <span className="beating-heart">❤️</span>design just as much as I <span className="beating-heart">❤️</span>code.</h1>
+          <h1>I<span> ❤️ </span>design just as much as I<span> ❤️ </span>code.</h1>
         </div>
         <div className="HeroAnimate" data-aos="fade-in">
           <iframe width="300" height="300" src="https://lottiefiles.com/iframe/43-emoji-wink" frameBorder="0" allowFullScreen scrolling='no'></iframe>
