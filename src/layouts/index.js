@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import icon32 from '../assets/favicon/favicon-32x32.png'
 
 
 import Header from '../components/header'
@@ -16,6 +17,9 @@ const Layout = ({ children, data }) => (
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
+      link={[
+        { rel: 'shortcut icon', type: 'image/png', href: `${icon32}` }
+    ]}
     />
     <Header />
       {children()}

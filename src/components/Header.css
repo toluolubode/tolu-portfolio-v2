@@ -36,10 +36,10 @@
     font-size: 16px;
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(5, 80px);
+    grid-template-columns: repeat(4, 80px);
     align-items: center;
     justify-items: right;
-    margin-right: 170px;
+    margin-right: 100px;
     margin-left: auto;   
 }
 
