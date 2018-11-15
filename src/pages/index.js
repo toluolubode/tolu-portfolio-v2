@@ -20,11 +20,13 @@ const IndexPage = () => (
           <br></br>
           <p>I'm super professional on <a style={{color:"darkslategray"}} target="_blank" href="https://www.linkedin.com/in/toluolubode/">Linkedin</a>...aren't we all</p>
           <br></br>
-          <p><a style={{color:"dodgerblue"}} target="_blank" href="https://www.dropbox.com/s/4z63ub8wwyibm6g/Tolu%20Resume.pdf?dl=0">Resume</a></p>
+          <p>A sprinkle of <a style={{color:"dodgerblue"}} target="_blank" href="https://www.dropbox.com/s/4z63ub8wwyibm6g/Tolu%20Resume.pdf?dl=0">Resume</a> for good measure.</p>
+          <br></br>
+          <p>I'm currently spending most of my time in between CS classes desiging for <a style={{color:"lightseagreen"}} target="_blank" href="https://2019.uottahack.ca/">uOttaHack</a></p>
         </div>
-        <div className="HeroAnimate">
+        {/* <div className="HeroAnimate">
           <iframe width="300" height="300" src="https://lottiefiles.com/iframe/43-emoji-wink" frameBorder="0" allowFullScreen scrolling='no'></iframe>
-        </div>
+        </div> */}
       </div>
     </div>
     {/* <div className="case-study">
