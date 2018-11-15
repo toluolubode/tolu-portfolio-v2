@@ -24,7 +24,7 @@ const IndexPage = () => (
           <br></br>
           <p>I'm currently spending most of my time in between CS classes desiging for <a style={{color:"lightseagreen"}} target="_blank" href="https://2019.uottahack.ca/">uOttaHack</a></p>
           <br></br><br></br>
-          <p style={{fontSize: "12px",color: "gray"}}>In the mean time, I'm super happy to share my other work by request </p>
+          <p style={{fontSize: "12px",color: "gray", padding:"20px"}}>In the mean time, I'm super happy to share my other work by request </p>
         </div>
         {/* <div className="HeroAnimate">
           <iframe width="300" height="300" src="https://lottiefiles.com/iframe/43-emoji-wink" frameBorder="0" allowFullScreen scrolling='no'></iframe>
