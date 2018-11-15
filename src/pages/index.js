@@ -8,9 +8,9 @@ const IndexPage = () => (
         <div className="HeroWords">
           <h1>🙈 Hello there! <br></br>I'm a digital product designer</h1>
           <h1>I <span>❤️ </span>code just as much as I ❤️ pixels</h1>
-          <p style={{fontWeight:"bold"}}>Soo... my site is currently under construction and racing to get it done ASAP </p><span id="pointer">🏎</span>
+          <p style={{fontWeight:"bold"}}>Soo... my site is currently under construction and I'm racing to get it done ASAP </p><span id="pointer">🏎</span>
           <br></br>
-          <p>Here's my most recent design case study: <a style={{color:"#00bd6e"}} target="_blank" href="https://uxplanet.org/designing-spotify-jamroom-f9f4ec9fd1a3">Spotify Jamroom</a></p>
+          <p>In the meantime, here's my most recent design case study: <a style={{color:"#00bd6e"}} target="_blank" href="https://uxplanet.org/designing-spotify-jamroom-f9f4ec9fd1a3">Spotify Jamroom</a></p>
           <br></br>
           <p>You can catch my online shenanigans and gif bufoonery on <a  target="_blank" href="https://twitter.com/txluu">Twitter</a></p>
           <br></br>
