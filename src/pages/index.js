@@ -12,8 +12,6 @@ const IndexPage = () => (
           <br></br>
           <p>Here's my most recent design case study: <a style={{color:"#00bd6e"}} target="_blank" href="https://uxplanet.org/designing-spotify-jamroom-f9f4ec9fd1a3">Spotify Jamroom</a></p>
           <br></br>
-          <p style={{fontWeight:"normal"}}>In the mean time, I'm super happy to share my other work by request. </p>
-          <br></br>
           <p>You can catch my online shenanigans and gif bufoonery on <a  target="_blank" href="https://twitter.com/txluu">Twitter</a></p>
           <br></br>
           <p>I sling some code on <a style={{color:"black"}} target="_blank" href="https://github.com/toluolubode">Github</a></p>
@@ -25,6 +23,8 @@ const IndexPage = () => (
           <p>A sprinkle of <a style={{color:"dodgerblue"}} target="_blank" href="https://www.dropbox.com/s/4z63ub8wwyibm6g/Tolu%20Resume.pdf?dl=0">Resume</a> for good measure.</p>
           <br></br>
           <p>I'm currently spending most of my time in between CS classes desiging for <a style={{color:"lightseagreen"}} target="_blank" href="https://2019.uottahack.ca/">uOttaHack</a></p>
+          <br></br><br></br>
+          <p style={{fontSize: "12px",color: "gray"}}>In the mean time, I'm super happy to share my other work by request </p>
         </div>
         {/* <div className="HeroAnimate">
           <iframe width="300" height="300" src="https://lottiefiles.com/iframe/43-emoji-wink" frameBorder="0" allowFullScreen scrolling='no'></iframe>
